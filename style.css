@@ -1,0 +1,710 @@
+body {
+    padding-top: 35px;
+    font-family: "Helvetica", "Arial", "Sans-serif";
+}
+.clear {clear: both;}
+body a {text-decoration: none;}
+a#more-info, li.whatis a, a.like, a#single-like-this {cursor: hand; /* for IE */ cursor: pointer;}
+blockquote {
+    color: #898989;
+    margin: 10px 0;
+    padding: 0 .6em;
+    line-height: 27px;
+}
+.layout_2col blockquote {
+    font-size: 16px;
+    line-height: 23px;
+}
+blockquote {
+    font-size: 13px;
+    line-height: 27px;
+}
+ul {
+    list-style-type: disc;
+    margin: 1em 0 1em 17px;
+}
+.meta ul {margin: 0;}
+#container {
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 972px;
+}
+#header {
+    margin: 0 auto;
+    padding-bottom: 13px;
+    height: 80px;
+}
+#title {
+    display: block;
+    margin-right: 36px;
+    width: 30%;
+    float: left;
+}
+#title h3 {clear: left;}
+#logo {
+    float: left;
+    width: 108px;
+    height: 31px;
+    display: block;
+    text-indent: -999em;
+    background: url(http://static.tumblr.com/gbtvazj/Lqkm21jig/logo.png) 0 0 no-repeat;
+}
+#placename {
+    float: left;
+    font-size: 40px;
+    line-height: 35px;
+    color: black;
+}
+#header h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-bottom: 14px;
+}
+#header h3 span {color: #ff2b06;}
+#description-social {
+    display: block;
+    float: left;
+    max-width: 605px;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 23px;
+}
+#social-links a {
+    width: 29px;
+    height: 29px;
+    display: block;
+    float: left;
+    margin: 10px 5px 0 0;
+    opacity: .5;
+    text-indent: -999em;
+}
+#description-social p {float: left; max-width: 400px;}
+#social-links {float: right; margin-top: -8px;}
+#social-links a:hover {opacity: 1;}
+#facebook {background: url(http://static.tumblr.com/gbtvazj/fLum251mz/facebook-red-circle.png) 0 0 no-repeat;}
+#twitter {background: url(http://static.tumblr.com/gbtvazj/J3Fm24dhj/twitter-red-circle.png) 0 0 no-repeat;}
+#flickr {background: url(http://static.tumblr.com/szomjah/ZADm2c41i/flickr-red-circle-2.png) 0 0 no-repeat;}
+#ustream {background: url(http://static.tumblr.com/y2dqjpf/LCOmgt2f8/ustream-red-circle.png) 0 0 no-repeat;}
+#livestream {background: url(http://static.tumblr.com/y2dqjpf/2Q6mgt2fe/livestream-red-circle.png) 0 0 no-repeat;}
+#stream {background: url(http://static.tumblr.com/y2dqjpf/tlHmgtbr7/stream-red-circle.png) 0 0 no-repeat;}
+#ted-home {background: url(http://static.tumblr.com/gbtvazj/CQlm268uy/tedx-red-circle.png) 0 0 no-repeat;}
+#whatis {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+#nav {
+    float: left;
+    width: 100%;
+    padding: 8px 0;
+    color: #ff2b06;
+    font-weight: bold;
+    clear: both;
+    font-size: 15px;
+    line-height: 25px;
+    border-bottom: 1px solid #e5e4e4;
+    border-top: 3px solid #ff2b06;
+    margin-bottom: 48px;
+}
+#nav.tagpage {margin-bottom: 0;}
+#nav ul {margin: 0;}
+#nav ul li {display: inline;}
+#nav ul li:first-of-type a {margin-left: 0;}
+#nav ul li a {
+    margin: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+.item img.quotation-marks {float: left; margin: 0 14px 14px 0;}
+.quotation p {margin-bottom: 1.25em;}
+
+.layout_2col.quote-short .quotation, .layout_2col.quote-medium .quotation, .layout_2col.answer .quotation {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 24px;
+    margin-left: 54px;
+}
+.layout_2col.quote-long .quotation {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 24px;
+    margin-left: 54px;
+}
+.quote-short .quotation, .quote-medium .quotation, .answer .quotation {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 32px;
+}
+.quote-long .quotation {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e4e4;
+}
+
+#nav ul li a:hover {color: #ff2b06;}
+
+.item {width: 75%;  }  //29 
+.layout_2col {width: 62%;}
+.item {margin-bottom: 50px;}
+.post a {color: #ff2b06;}
+.post p {margin-bottom: 1em;}
+h1, .the-link, #posts-tagged {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+}
+.the-link {color: #ff2b06; text-decoration: none;}
+.the-link span {color: #000; font-family: Monaco; margin-left: 10px;}
+.post {font-size: 13px; line-height: 22px; margin-bottom: 8px;}
+.post ul {font-size: 13px; line-height: 22px;}
+.photo .image, .images, .audio .player {margin-bottom: 1.5em;}
+.audio-meta img, .audio-meta embed {margin: 16px; padding: 0!important;}
+.audio .player img {
+    margin-top: 0!important;
+    margin-top: 0!important;
+    margin-left: 7px;
+    max-width: 95%;
+}
+.audio .player {padding-top: 5px; padding-bottom: 1px;}
+.layout_2col.audio .player {float: left; width: 50%; margin-right: 36px;
+}
+.layout_2col .image img {max-width: 97%;}
+
+.image img, .images, .video img, .audio .player {
+    max-width: 95%;
+    margin-top: 5px;
+    background: url(http://static.tumblr.com/gbtvazj/JLgm21jnc/stripe-gray.png) 0 0 repeat;
+    padding: 5px;
+}
+
+.audio-meta {
+    background: #fff;
+    margin: 5px;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: bold;
+    padding: 16px 10px 0 10px;
+}
+.audio_player {text-align: center;}
+.audio-meta span {color: #ff2b06; margin-left: 10px;}
+.youtube-thumb {
+    max-width: 95%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.youtube {
+    display: none;
+    text-align: center;
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+.youtube iframe {width: 480px; height: 360px;}
+.youtube-overlay {cursor: pointer; position: relative;}
+.video-overlay {height: 217px; width: 217px!important;}
+.video-overlay {
+    position: absolute;
+    left: 40px;
+    left: 50%;
+    margin-left: -120px;
+    top: 50%;
+    margin-top: -120px;
+}
+.layout_2col.video {background: url(http://static.tumblr.com/gbtvazj/JLgm21jnc/stripe-gray.png) 0 0 repeat;}
+.layout_2col.video .meta {background: #fff;}
+.layout_2col.video hr.post-end {margin-bottom: 0;}
+.layout_2col .video-overlay {
+    position: absolute;
+    left: 50%;
+    margin-left: -109px;
+    top: 50%;
+    margin-top: -109px;
+}
+.layout_2col.video .image img {min-width: 217px;}
+.layout_2col.video .post {
+    background: white;
+    margin: 0 auto 0 auto;
+    padding-top: 1.5em;
+}
+.video .post {margin-top: 1.5em;}
+.chat ul {list-style-type: none;}
+.chat ul li:nth-child(even) span {color: #ff2b06;}
+.chat ul li span {text-transform: uppercase; font-size: 14px; font-weight: bold;}
+.chat ul li span {font-size: 13px;}
+.chat ul {margin-left: 0;}
+.chat > ul li {margin-bottom: .9em; font-size: 13px; line-height: 23px;}
+
+.layout_2col.chat > ul li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 27px;
+    border-bottom: 1px solid #e5e4e4;
+}
+.chat ul li:last-of-type {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.layout_2col h1, .layout_2col .the-link {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    padding: 0 20px;
+}
+.layout_2col .post {
+    moz-column-count: 1;
+    -moz-column-gap: 36px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 36px;
+    column-count: 2;
+    column-gap: 36px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+#single-left .layout_2col .post {
+    moz-column-count: 1;
+    -moz-column-gap: 0;
+    -webkit-column-count:1;
+    -webkit-column-gap: 0;
+    column-count: 0;
+    column-gap: 0;
+}
+.layout_2col.audio .post {
+    column-count: 0;
+    -webkit-column-count: 0;
+    -moz-column-count: 0;
+    padding: 0;
+}
+.layout_2col .post p, .layout_2col .post ul {
+    font-size: 16px;
+    line-height: 27px;
+}
+.layout_2col .image, .layout_2col .images, .layout_2col .youtube-overlay {
+    background: url(http://static.tumblr.com/gbtvazj/JLgm21jnc/stripe-gray.png) 0 0 repeat;
+    text-align: center;
+    margin-bottom: 1.5em;
+    padding: 5px 0;
+}
+.layout_2col .youtube-overlay {
+    background: none !important;
+}
+.photosetcol1, .photosetcol2, .photosetcol3 {
+    overflow: hidden;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 0;
+}
+.photosetcol1 img {
+    margin: 0;
+}
+.photosetcol2 img {
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+.photsetcol3 img {
+    float: left;
+    width: 33.3%;
+    margin: 0;
+}
+hr {
+    height: 5px;
+    margin-bottom: 14px;
+    border: 0;
+    width: 100%;
+    background-image: url(http://static.tumblr.com/gbtvazj/n3Nm21jmq/stripe-red.png);
+}
+.meta {
+    overflow: hidden;
+    padding: 8px 0 8px;
+    border-top: 1px solid #e1e0e0;
+    font-size: 10px;
+    clear: both;
+    line-height: 14px;
+}
+hr.post-end {margin-top: 0!important;}
+.meta-alt {
+    padding: 8px 0 0;
+    border-top: 1px solid #e1e0e0;
+    font-size: 10px;
+    line-height: 14px;
+}
+.meta a, .meta-alt a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    transition: color .25s;
+}
+.meta a:hover, .meta-alt a:hover {
+    color: #ff2b06;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    transition: color .25s;
+}
+.meta ul, .meta-alt ul {margin-bottom: 4px;}
+.meta li, .meta-alt li {display: inline; margin-right: 10px;}
+.meta-tags {}
+.social {}
+.meta .reblog {
+    float: right;
+    margin: 3px 0 0 10px;
+    width: 12px;
+    height: 7px;
+    background: url(http://static.tumblr.com/gbtvazj/GJUm21jla/social.png) right top;
+}
+.reblog-wrapper:hover .reblog {background: url(http://static.tumblr.com/gbtvazj/GJUm21jla/social.png) right bottom;}
+.meta a.like {
+    float: right;
+    margin: 3px 0 0 10px;
+    width: 7px;
+    height: 7px;
+    background: url(http://static.tumblr.com/gbtvazj/GJUm21jla/social.png) 28px 0px;
+}
+.like-wrapper, .reblog-wrapper {
+    float: right;
+    position: relative;
+    top: -4px;
+    padding: 4px;
+    cursor: pointer;
+    width: 9px;
+}
+.like-wrapper {margin-right: 5px;}
+.like-wrapper:hover .like, .like.liked {background: url(http://static.tumblr.com/gbtvazj/GJUm21jla/social.png) 28px 7px!important;}
+
+.tags {
+    float: right;
+    margin: 3px 0 0 10px;
+    width: 11px;
+    height: 7px;
+    background: url(http://static.tumblr.com/gbtvazj/GJUm21jla/social.png) left top;
+}
+.tags:hover {
+    background: url(http://static.tumblr.com/gbtvazj/GJUm21jla/social.png) left bottom;
+}
+
+#pagination {
+    margin-top: -30px;
+    padding-top: 10px;
+    font-weight: bold;
+    border-top: 3px solid #ff2b06;
+}
+#pagination a {
+    text-transform: uppercase;
+    color: #ff2b06;
+    text-decoration: none;
+}
+#pagination a#older-posts {margin-left: 10px;}
+#pagination a#newer-posts {margin-right: 10px; margin-left: 0;}
+#pagination span {margin: 0 10px;}
+#pagination hr {background: url(http://static.tumblr.com/gbtvazj/Rl1m21jm8/stripe-black.png);}
+
+#footer {clear: both;}
+#footer h2 {font-size: 19px; margin-top: 55px;}
+#footer p {
+    margin-top: 20px;
+    width: 600px;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    line-height: 19px;
+}
+
+#boilerplate {
+    float: right;
+    width: 300px;
+    font-size: 12px;
+}
+#boilerplate p {
+    font-weight: bold;
+    font-weight: 19px;
+    width: 50%;
+    margin-bottom: 25px;
+}
+#nav-meta #nav-meta-boilerplate p {
+    float: none;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 12px;
+}
+#nav-meta-boilerplate {
+    position: relative;
+    width: 300px;
+    float: right;
+}
+#boilerplate p {
+    width: 300px;
+}
+#boilerplate a, #nav-meta-boilerplate a {
+    color: #ff2b06;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav-meta-boilerplate a, #nav-meta-boilerplate span {
+    font-size: 12px;
+}
+#boilerplate span, #nav-meta-boilerplate span {
+    color: #000;
+    font-weight: bold;
+    margin: 0 7px;
+}
+
+#nav ul li.whatis a {
+    display: inline-block;
+    background: url(http://static.tumblr.com/gbtvazj/HAQm21jg9/arrow-right.png) right center no-repeat;
+    padding-right: 10px;
+}
+#nav-meta {
+    display: none;
+    border-top: 1px solid #e5e4e4;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+#nav-meta p {
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: normal;
+    width: 60%;
+    float: left;
+}
+#title hr {display: none;}
+
+#nav-toggle a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    clear: both;
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    background: url(http://static.tumblr.com/gbtvazj/HAQm21jg9/arrow-right.png) right center no-repeat;
+    padding-right: 10px;
+}
+#nav-toggle {
+    margin-bottom: 5px;
+    display: none;
+    position: relative;
+    top: 5px;
+}
+.meta-slidedown {
+    display: none;
+}
+
+#single-left {
+    width: 600px;
+    float: left;
+    margin-right: 36px;
+}
+#single-left .meta, #single-left .post-end {display: none;}
+#single-right {width: 300px; float: left;}
+#single-right hr {margin: 18px 0;}
+#single-meta span {
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+    line-height: 21px;
+}
+#single-meta a {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+#single-meta a span {display: inline; color: #ff2b06;}
+#single-meta-left, #single-meta-right {display: inline-block; width: 49%;}
+#single-meta-left {vertical-align: top;}
+#single-reblog-this {
+    background: url(http://static.tumblr.com/gbtvazj/SGEm23e5d/reblog.png) left center no-repeat;
+    padding-left: 15px;
+}
+#single-reblog-this:hover {
+    background: url(http://static.tumblr.com/gbtvazj/6wKm23e5r/reblog-red.png) left center no-repeat;
+}
+
+#single-like-this {
+    background: url(http://static.tumblr.com/gbtvazj/MNhm23e65/heart.png) left center no-repeat;
+    padding-left: 16px;
+}
+#single-like-this:hover, #single-like-this.liked {
+    background: url(http://static.tumblr.com/gbtvazj/seOm23e6l/heart-red.png) left center no-repeat;
+}
+
+#single-tags {font-size: 12px; line-height: 21px;}
+#single-tags a, #single-tags a:visited {color: #ff2b06;}
+#single-tags a:hover {text-decoration: underline;}
+
+#single-social a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 21px;
+    display: block;
+}
+#single-social a span {color: #ff2b06;}
+#single-social #single-tweet {
+    background: url(http://static.tumblr.com/gbtvazj/g6cm23e7g/twitter-red.png) left center no-repeat;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+#single-social #single-tweet:hover {background: url(http://static.tumblr.com/gbtvazj/CE1m23e72/twitter-red-opacity.png) left center no-repeat;}
+#single-social #single-facebook {background: url(http://static.tumblr.com/gbtvazj/u56m23e7v/facebook-red.png) left center no-repeat; padding-left: 25px;}
+#single-social #single-facebook:hover {background: url(http://static.tumblr.com/gbtvazj/99Im23e89/facebook-red-opacity.png) left center no-repeat;}
+
+#single-likes {margin-bottom: -8px;}
+
+#single-likes strong, #single-replies strong {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#single-likes .reply, #single-likes .reblog {display: none;}
+#single-likes .action, #single-likes blockquote {display: none;}
+#single-likes .like {display: inline-block !important;}
+#single-likes .like img {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e5e4e4;
+    margin: 0 5px 5px 0;
+}
+#single-replies strong {margin-top: 25px;}
+#single-replies li {
+    font-size: 12px;
+    line-height: 21px;
+    clear: both;
+}
+#single-replies .avatar {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+#single-replies .like {display: none;}
+#single-replies .action {
+    float: right;
+    width: 237px;
+    margin-bottom: 18px;
+}
+
+#single-replies .action a {color: #ff2b06;}
+.single-tag:last-of-type span {display: none;}
+strong {font-weight: bold;}
+.tagd span:last-of-type, li.reblog:last-of-type {display: none;}
+.reblog blockquote {width: 77%; margin-top: -18px;}
+#single-right .reblog blockquote {float: right;}
+.item.reblog blockquote {margin-top: 0;}
+.reblog blockquote a {color: #000;}
+
+#posts {
+    width: 100%;
+    float: left;
+}
+#posts.single {
+    border-bottom: 3px solid #FF2B06;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.item img {max-width: 100%;}
+
+@media screen and (max-width: 860px) {
+    #nav-meta p {width: 100%; float: none;}
+    #nav-meta-boilerplate {width: auto; float: none;}
+    #nav-meta #nav-meta-boilerplate p {margin-top: 18px}
+    #description-social {max-width: 230px}
+    #nav-meta .links {bottom: 15px}
+    #posts {width: 100%}
+    .layout_2col {width: 90%}
+    .item {width: 45%}
+    .audio_player {margin-left: -17px}
+    #nav ul li.whatis {display: inline}
+    #whatis {display: none}
+    #footer {height: 100px}
+    #footer h2, #footer #boilerplate {display: none}
+    #single-right {width: 636px; margin-left: 0; padding-top: 15px; border-top: 1px solid #e5e4e4;}
+    #single-right hr:last-of-type {position: relative; top: 10px;}
+    #single-replies .action {width: 237px}
+    #single-replies .without_commentary {display: none}
+    .single-sidebar {width: 300px; float: left;}
+    .single-sidebar:first-of-type {margin-right: 36px}
+}
+
+@media screen and (max-width: 548px) {
+    .audio_player {margin-left: -17px}
+    #whatis {display: none}
+    #footer {height: 100px}
+    #footer h2, #footer #boilerplate {display: none}
+    #footer p {width: 300px; text-align: left; font-size: 11;}
+    .item {width: 100%; min-width: 300px;}
+    #title, #description-social {max-width: 100%; width: 100%;}
+    #title hr {display: block}
+    #single-left {width: 300px}
+    #title {width: 100%}
+    #posts {margin: 0 auto}
+    #social-links {display: none}
+    #header {border-bottom: 0}
+    #description-social {padding-bottom: 7px}
+    #nav-toggle {display: block}
+    #nav ul {display: none}
+    #single-right {width: 300px}
+    #nav ul li.whatis {display: inline}
+    #nav ul li {display: block}
+    #single-replies .action {: }
+    #nav ul li span {display: none}
+    #nav ul li a {margin-left: 0}
+    #pagination {font-size: 0.75em!important; text-align: center;}
+    #nav a#more-info {width: 120px}
+}
+
+@media only screen and (max-device-width: 480px) {
+    #nav-meta p {width: 100%; float: none;}
+    #nav-meta-boilerplate {width: auto; float: none;}
+    #nav-meta #nav-meta-boilerplate p {margin-top: 18px}
+    #description-social {max-width: 230px}
+    #nav-meta .links {position: absolute; right: 3px; bottom: 15px;}
+    #pagination {font-size: 0.5em!important; text-align: center; padding-top: 3px;}
+    .item {width: 100%; min-width: 100px;}
+    #title, #description-social {max-width: 100%; width: 100%;}
+    #title hr {display: block}
+    #single-left {width: 300px}
+    #title {width: 100%}
+    #posts {margin: 0 auto}
+    #social-links {display: none}
+    #header {border-bottom: 0}
+    #description-social {padding-bottom: 7px}
+    #nav-toggle {display: block}
+    #nav ul {display: none}
+    #single-right {width: 300px}
+    #nav ul li {display: block}
+    #single-replies .action {: }
+    #nav ul li span {display: none}
+    #nav ul li a {margin-left: 0}
+    #nav a#more-info {width: 50%}
+}
+
+#likeit {height: 0; width: 0; visibility: hidden;}
+#single-left .layout_2col {width: 100%;}
+.more_notes_link_container {text-align: left !important;}
+#single-likes .more_notes_link_container {display: none;}
+.more_notes_link {color: #ff2b06;font-size: 12px; font-weight: bold;}
+#single-social a span:hover {text-decoration: underline;}
+#single-meta a span:hover {text-decoration: underline;}
+.post a:hover {text-decoration: underline;}
+#posts-tagged {clear: both; padding-top: 8px; float: left;}
+hr.black {clear: both; float: left; margin-bottom: 48px;}
+.photo .image img {margin-top: 0;}
+#abouttheme {width:0; height:0; position:absolute; overflow:hidden; opacity:0; color:white;}
+
+
