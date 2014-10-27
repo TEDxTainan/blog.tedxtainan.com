@@ -257,7 +257,7 @@ h1, .the-link, #posts-tagged {
 }
 .layout_2col h1, .layout_2col .the-link {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 29px;
     padding: 0 20px;
 }
@@ -707,4 +707,13 @@ hr.black {clear: both; float: left; margin-bottom: 48px;}
 .photo .image img {margin-top: 0;}
 #abouttheme {width:0; height:0; position:absolute; overflow:hidden; opacity:0; color:white;}
 
+.layout_2col .post{moz-column-count: 1;
+-webkit-column-count: 1; 
+}
+blockquote {
+border-left: solid 4px #e4e4e4;
+}
 
+.active .publisher-nav-color::after {
+background: #EC2300 !important;
+}
